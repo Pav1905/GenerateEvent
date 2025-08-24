@@ -1,41 +1,37 @@
-# GenerateEvent
-A modern web app that allows users to create fully customized static event websites by entering event details. Users can choose themes, upload images, and preview the design in real-time. Once finalized, the app generates a downloadable ZIP containing a complete index.html, styles.css, and assets folder—ready for deployment.
-# 🎉 GenerateEvent
+**GenerateEvent**
+GenerateEvent is a modern web-based Event Website Generator that enables users to create fully customized static websites for their events. Users can enter event details, upload images, choose from pre-styled themes, and preview the site in real time. Once finalized, the application generates a downloadable ZIP file containing all required files—ready for deployment.
 
-A modern web-based Event Website Generator that allows users to create and download static, fully styled websites for their events by filling out a simple form.
+**Features**
+Multiple image uploads with themed sections
+Real-time live preview of the generated site
+Generates clean, responsive HTML and CSS code
+Professionally designed styling with customizable themes
+Downloadable ZIP containing all files and assets
 
----
+**Tech Stack**
+Frontend: React, HTML, CSS
+Backend: Spring Boot
 
-## 🚀 Features
-- 🖼️ Multiple image uploads and themed sections
-- ⚡ Live preview of the generated site
-- 🧾 Generates HTML + CSS static website code
-- 🎨 Premium frontend styling
-- 📦 ZIP file download option
+**Utilities: File/ZIP generator, asset bundler**
 
----
+**Output Structure**
+Generated Website
+ ├── index.html
+ ├── styles.css
+ └── assets/
+     ├── images/
+     └── logos/
 
-## 🛠 Tech Stack
-- **Frontend:** React / HTML / CSS
-- **Backend:** Spring Boot
-- **Build Tools:** File/Zip generator, asset bundler
 
----
+**How to Use**
 
-## 📂 Output
-- `index.html`
-- `styles.css`
-- `assets/` (image files, logos, etc.)
+**Clone this repository:**
+git clone https://github.com/Pav1905/GenerateEvent.git
+cd GenerateEvent
 
----
 
-## 📸 Demo
-> *(Add screenshots or a short demo video if available)*
+Install dependencies and run the application.
 
----
+Enter event details, customize the theme, and preview the website.
 
-## 📥 How to Use
-1. Clone this repo  
-   ```bash
-   git clone https://github.com/Pav1905/GenerateEvent.git
-   cd GenerateEvent
+Download the generated ZIP file and deploy it anywhere.
